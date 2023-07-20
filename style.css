@@ -1,0 +1,79 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#main-nav {
+    background-color: transparent;
+}
+
+section {
+    height: 100vh;
+}
+
+#home {
+    background: url(myself.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-col {
+    margin-top: 15%;
+    size: 10%;
+}
+
+i {
+    color: rgb(8, 5, 4);
+    
+}
+
+h1.display-3 {
+    color: rgba(40, 3, 61, 0.697);
+    font-size: 6rem;
+}
+
+p.lead {
+    color: rgba(16, 1, 1, 0.697);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img{
+    filter: grayscale(1);
+}
+
+.img-hero {
+    height: auto;
+}
+
+.spacing {
+    margin-top: 10%;
+}
+
+h2.display-4{
+    color: rgba(40, 3, 61, 0.697);
+    font-size: 2.5rem;
+}
+
+#main-nav {
+    position: left;
+}
+
+.card-icon {
+    font-size: 5rem;
+    color: rgba(40, 3, 61, 0.697);
+}
+
+.block {
+    height: .3rem;
+    width: 6rem;
+    background-color: rgba(0, 0, 0, 0.697);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
