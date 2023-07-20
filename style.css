@@ -15,7 +15,7 @@ section {
 }
 
 #home {
-    background: url(myself.jpg);
+    background-image: url(myself.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
