@@ -1,3 +1,4 @@
+/* Base styles */
 html {
     scroll-behavior: smooth;
 }
@@ -15,7 +16,7 @@ section {
 }
 
 #home {
-    background-image: url(myself.jpg);
+    background-image: url("myself.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +29,6 @@ section {
 
 i {
     color: rgb(8, 5, 4);
-    
 }
 
 h1.display-3 {
@@ -42,21 +42,22 @@ p.lead {
     font-weight: bold;
 }
 
-img{
+img {
     filter: grayscale(1);
 }
 
 .img-hero {
     height: auto;
+    max-width: 100%;
 }
 
 .spacing {
     margin-top: 10%;
 }
 
-h2.display-4{
+h2.display-4 {
     color: rgba(40, 3, 61, 0.697);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 #main-nav {
@@ -76,4 +77,31 @@ h2.display-4{
     margin-left: auto;
     margin-bottom: 2rem;
     opacity: 0.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .custom-col {
+        margin-top: 5%;
+    }
+
+    h1.display-3 {
+        font-size: 4rem;
+    }
+
+    p.lead {
+        font-size: 1.5rem;
+    }
+
+    .img-hero {
+        height: auto;
+    }
+
+    .spacing {
+        margin-top: 5%;
+    }
+
+    h2.display-4 {
+        font-size: 1.2rem;
+    }
 }
